@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.AcknowledgePurchaseParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.BillingClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.BillingFlowParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.BillingResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.ConsumeParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IAcknowledgePurchaseResponseListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IBillingClientStateListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IConsumeResponseListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IPriceChangeConfirmationListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IPurchaseHistoryResponseListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IPurchasesUpdatedListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.IRewardResponseListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.ISkuDetailsResponseListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.PriceChangeFlowParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.ProxyBillingActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.Purchase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.PurchaseHistoryRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.RewardLoadParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.SkuDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Api.SkuDetailsParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.BillingClient.Util.BillingHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Android.Vending.Billing.IInAppBillingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup>
+    <Compile Include="obj\Debug\generated\enums\Android.BillingClient.Api.BillingResponseCode.cs" />
+    <Compile Include="obj\Debug\generated\enums\Android.BillingClient.Api.ChildDirectedTypes.cs" />
+    <Compile Include="obj\Debug\generated\enums\Android.BillingClient.Api.PurchaseState.cs" />
+    <Compile Include="obj\Debug\generated\enums\Android.BillingClient.Api.UnderAgeOfConsentTypes.cs" />
+  </ItemGroup>
+</Project>

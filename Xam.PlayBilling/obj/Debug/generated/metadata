@@ -1,0 +1,31 @@
+<metadata>
+  <add-node path="/api"><enum name="Android.BillingClient.Api.ChildDirectedTypes" /></add-node>
+  <add-node path="/api"><enum name="Android.BillingClient.Api.UnderAgeOfConsentTypes" /></add-node>
+  <add-node path="/api"><enum name="Android.BillingClient.Api.PurchaseState" /></add-node>
+  <add-node path="/api"><enum name="Android.BillingClient.Api.BillingResponseCode" /></add-node>
+  <attr path="/api/package[@name='com.android.billingclient.api']/*[@name='BillingClient.Builder']/method[@name='setChildDirected']/parameter[@name='childDirected']" name="enumType">Android.BillingClient.Api.ChildDirectedTypes</attr>
+  <attr path="/api/package[@name='com.android.billingclient.api']/*[@name='BillingClient.Builder']/method[@name='setUnderAgeOfConsent']/parameter[@name='underAgeOfConsent']" name="enumType">Android.BillingClient.Api.UnderAgeOfConsentTypes</attr>
+  <attr path="/api/package[@name='com.android.billingclient.api']/*[@name='BillingResult']/method[@name='getResponseCode']" name="enumReturn">Android.BillingClient.Api.BillingResponseCode</attr>
+  <attr path="/api/package[@name='com.android.billingclient.api']/*[@name='Purchase']/method[@name='getPurchaseState']" name="enumReturn">Android.BillingClient.Api.PurchaseState</attr>
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.ChildDirected']/field[@name='CHILD_DIRECTED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.ChildDirected']/field[@name='NOT_CHILD_DIRECTED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.ChildDirected']/field[@name='UNSPECIFIED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.UnderAgeOfConsent']/field[@name='NOT_UNDER_AGE_OF_CONSENT']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.UnderAgeOfConsent']/field[@name='UNDER_AGE_OF_CONSENT']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.UnderAgeOfConsent']/field[@name='UNSPECIFIED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='Purchase.PurchaseState']/field[@name='PENDING']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='Purchase.PurchaseState']/field[@name='PURCHASED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='Purchase.PurchaseState']/field[@name='UNSPECIFIED_STATE']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='BILLING_UNAVAILABLE']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='DEVELOPER_ERROR']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='ERROR']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='FEATURE_NOT_SUPPORTED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='ITEM_ALREADY_OWNED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='ITEM_NOT_OWNED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='ITEM_UNAVAILABLE']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='OK']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='SERVICE_DISCONNECTED']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='SERVICE_TIMEOUT']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='SERVICE_UNAVAILABLE']" />
+  <remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.BillingResponseCode']/field[@name='USER_CANCELED']" />
+</metadata>
